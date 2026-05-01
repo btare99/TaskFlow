@@ -1,0 +1,23 @@
+.settings-page { padding: 32px; max-width: 800px; margin: 0 auto; }
+.settings-page-title { font-size: 26px; font-weight: 800; margin-bottom: 24px; }
+.settings-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+.settings-tab { padding: 10px 16px; font-size: 14px; font-weight: 500; color: var(--text-muted); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all var(--transition); }
+.settings-tab:hover { color: var(--text-main); }
+.settings-tab.active { color: var(--indigo); border-bottom-color: var(--indigo); }
+.settings-section {}
+.settings-title { font-size: 18px; font-weight: 700; margin-bottom: 24px; }
+.settings-form { max-width: 480px; }
+.settings-avatar-row { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; }
+.settings-label { font-size: 14px; color: var(--text-muted); margin-bottom: 6px; }
+.billing-current { display: flex; align-items: center; justify-content: space-between; background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 24px; }
+.billing-plan-name { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; font-size: 16px; font-weight: 700; }
+.billing-status { font-size: 13px; font-weight: 600; }
+.billing-period { font-size: 13px; color: var(--text-muted); }
+.billing-upgrade-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.billing-upgrade-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; position: relative; }
+.billing-upgrade-card--featured { border-color: var(--indigo); background: var(--indigo-light); }
+.billing-upgrade-badge { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: var(--indigo); color: white; font-size: 11px; font-weight: 700; padding: 2px 12px; border-radius: 99px; white-space: nowrap; }
+.billing-upgrade-name { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+.billing-upgrade-price { font-size: 28px; font-weight: 800; color: var(--indigo); margin-bottom: 16px; }
+.billing-upgrade-price span { font-size: 14px; color: var(--text-muted); font-weight: 400; }
+.billing-upgrade-features { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; font-size: 13px; color: var(--text-muted); }
